@@ -5,7 +5,7 @@ const nodemailer = require('nodemailer');
 
 
 const app = express();
-const port = 5000;
+const port = 6000;
 
 // Middleware to parse JSON
 app.use(express.json());  // No need for body-parser package anymore
